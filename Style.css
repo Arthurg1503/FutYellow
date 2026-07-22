@@ -1,4 +1,21 @@
-body {background-color: rgba(0, 0, 0, 1);}
+ 
+@media screen and (max-width: 420px) {
+
+  .retangulo2 {
+
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  border:dotted 10px #3500f3;
+
+}
+
+
+  
+}
+
+body {background-color: rgba(0, 0, 0, 1);
+color:#fff;}
 h1 {color: rgb(255, 238, 0);}
 h2 {color: rgb(255, 238, 0);}
 h3 {color: rgb(255, 238, 0);}
@@ -75,11 +92,34 @@ h3 {
    border: 3px solid #333;
   border-radius: 15px;
 }
+.btn-group {
+  display: flex;
+  width: 100dvw;
+  justify-content: center;
+
+}
 .retangulo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 310px;
+  height: 280px;
+  background-color: #000000;
+  border:dotted 10px #3500f3;
+}
+.jogos-group {
+  display: flex;
+  width: 100dvw;
+  justify-content: center;
+
+}
+.retangulo2 {
+  display: flex;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   width: 310px;
   height: 280px;
   background-color: #000000;
@@ -99,7 +139,7 @@ h3 {
 .band {
   width: 32px;
 }
- 
+
 
 
 
