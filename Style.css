@@ -1,21 +1,4 @@
- 
-@media screen and (max-width: 420px) {
-
-  .retangulo2 {
-
-  width: 100%;
-  height: auto;
-  background-color: #000000;
-  border:dotted 10px #3500f3;
-
-}
-
-
-  
-}
-
-body {background-color: rgba(0, 0, 0, 1);
-color:#fff;}
+body {background-color: rgba(0, 0, 0, 1);}
 h1 {color: rgb(255, 238, 0);}
 h2 {color: rgb(255, 238, 0);}
 h3 {color: rgb(255, 238, 0);}
@@ -41,7 +24,7 @@ h3 {
   cursor: pointer;
 }
 
-.escalações{ margin-top: 400px;}
+
 
 
 
@@ -74,9 +57,6 @@ h3 {
 }
 
 
-
-/*estilização das fontes*/
-
 .protest-strike-regular {
   font-family: "Protest Strike", sans-serif;
   font-weight: 400;
@@ -92,46 +72,7 @@ h3 {
    border: 3px solid #333;
   border-radius: 15px;
 }
-.btn-group {
-  display: flex;
-  width: 100dvw;
-  justify-content: center;
 
-}
-.retangulo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 310px;
-  height: 280px;
-  background-color: #000000;
-  border:dotted 10px #3500f3;
-}
-.jogos-group {
-  display: flex;
-  width: 100dvw;
-  justify-content: center;
-
-}
-.retangulo2 {
-  display: flex;
-  text-align: center;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  width: 310px;
-  height: 280px;
-  background-color: #000000;
-  border:dotted 10px #3500f3;
-}
-.bloco_jogos{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  gap: 30px
-
-}
 .partida {
   display: flex;
   margin: 30px 0px;
@@ -139,7 +80,42 @@ h3 {
 .band {
   width: 32px;
 }
+ 
+ 
+
+.bloco_jogos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 31px;
+}
 
 
+.partida {
+  width: 450px;
+  height: 100px;
+  gap: 16px;
+  background-color: #111;
+  border: 2px solid #3500f3;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
 
 
+.partida h3 {
+    margin: 10px;
+}
+
+.partida p {
+    color: white;
+    font-size: 18px;
+}
+
+.band {
+    width: 40px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 5px;
+}
