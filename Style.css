@@ -113,9 +113,62 @@ h3 {
     font-size: 18px;
 }
 
-.band {
-    width: 40px;
-    height: 25px;
-    vertical-align: middle;
-    margin: 5px;
+
+.bandeiras-direita {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.bandeiras-esquerda {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.bandeiras-direita img,
+.bandeiras-esquerda img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.troca-imagem {
+  position: relative;
+  width: 60px; /* ajuste ao tamanho desejado */
+  height: 40px;
+}
+
+.troca-imagem img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.img-hover {
+  opacity: 0;
+}
+
+.troca-imagem:hover .img-normal {
+  opacity: 0;
+}
+
+.troca-imagem:hover .img-hover {
+  opacity: 1;
 }
