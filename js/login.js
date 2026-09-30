@@ -14,7 +14,6 @@ form.addEventListener("submit", async (event)=> {
         const result = await signInWithEmailAndPassword(auth, email, password);
         console.log ("Usuário logado:", result.user.uid);
         window.location.href ="./index.html";
-
      } catch (error) {
         console.error(error);
         document.getElementById("mensagem").textContent = "E-mail ou senha invalidos";
